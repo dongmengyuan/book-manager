@@ -1,7 +1,7 @@
 # book-manager
 XiyouLinuxGroup图书管理系统
 
-整体架构说明
+# 整体架构说明
 
 config ----spring <-放置spring的配置文件
        |
@@ -24,9 +24,9 @@ upload ---- <-存放上传的文件
 view ---- <-存放jsp、html等文件
 
 utilClass ---- <-存放工具类(比如日期转换类:将时间戳转换为yy-mm-dd hh:mm:ss)
-数据库建表
+# 数据库建表
 
-建表规范
+# 建表规范
 
 主键一律无意义，就算有意义，也必须是以后不会被更新，修改并且是自增的字段。命名规范一律是pk_id,数据类型为int unsigned,字段not null。
 唯一索引命名一律以uk_为前缀，唯一索引并不以提高查询速率为主要目的，主要是进行唯一性约束。
