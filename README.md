@@ -68,13 +68,13 @@ utilClass ---- <-存放工具类(比如日期转换类:将时间戳转换为yy-m
 
 # 数据库表
 七张表：
-       -book_comment：评论表
-       -book_info：书籍信息表
-       -book_label：标签表
-       -book_relation_label：标签关系
-       -borrow_info：借阅表
-       -return_info：归还表
-       -cs_user：用户表
+-book_comment：评论表
+-book_info：书籍信息表
+-book_label：标签表
+-book_relation_label：标签关系
+-borrow_info：借阅表
+-return_info：归还表
+-cs_user：用户表
 
 # 主要流程
        前端页面发起请求，请求到对应的controller并接收到请求参数，然后根据controller控制器的业务需求调用对应的service实现业务逻辑处理，等待service完成业务逻辑处理之后，controller就会把数据封装起来传给前端页面进行展示。
